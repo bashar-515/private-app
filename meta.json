@@ -1,11 +1,12 @@
 {
   "module_id": "priv-app:my-priv-app-mod",
   "visibility": "private",
+  "description": "foo",
   "applications": [
     {
       "name": "print",
       "type": "single_machine",
-      "entrypoint": "dist/index.html",
+      "entrypoint": "dist/index.html"
     }
   ]
 }

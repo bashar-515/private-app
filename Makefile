@@ -3,7 +3,7 @@
 VERSION := 0.0.0
 MODULE_NAME := my-priv-app-mod
 ORG_PUBLIC_NAMESPACE := priv-app
-BASE_URL := https://pr-10341-appmain-bplesliplq-uc.a.run.app
+BASE_URL := https://pr-10341-appmain-bplesliplq-uc.a.run.app/
 
 create:
 	viam --base-url ${BASE_URL} module create --name=${MODULE_NAME} --public-namespace=${ORG_PUBLIC_NAMESPACE}
