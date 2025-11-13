@@ -21,8 +21,8 @@ async function main() {
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
-  // Extract the machine identifier from the URL
   let machineCookieKey = window.location.pathname.split("/")[2];
+
   ({
     apiKey: { id: apiKeyId, key: apiKeySecret },
     machineId: machineId,
