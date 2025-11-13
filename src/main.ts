@@ -18,6 +18,8 @@ async function main() {
 
   const client = await VIAM.createViamClient(opts);
   const machine = await client.appClient.getRobot(machineId);
+
+  console.log(machine?.name ?? "could not get robot :(")
 }
 
 document.addEventListener("DOMContentLoaded", async () => {
