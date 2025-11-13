@@ -7,7 +7,7 @@ let machineId = "";
 
 async function main() {
   const opts: VIAM.ViamClientOptions = {
-    serviceHost: "https://app.viam.com",
+    serviceHost: "https://pr-10341-appmain-bplesliplq-uc.a.run.app",
     credentials: {
       type: "api-key",
       payload: apiKeySecret,
