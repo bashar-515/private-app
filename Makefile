@@ -12,7 +12,7 @@ update:
 	viam --base-url ${BASE_URL} module update --module=meta.json
 
 upload: build
-	viam --base-url ${BASE_URL} module upload --version=${VERSION} --platform=any --public-namespace=${ORG_PUBLIC_NAMESPACE} module
+	viam --base-url ${BASE_URL} module upload --version=${VERSION} --platform=any --public-namespace=${ORG_PUBLIC_NAMESPACE} dist
 
 build:
 	npm run build
