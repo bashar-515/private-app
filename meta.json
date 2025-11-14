@@ -1,5 +1,5 @@
 {
-  "module_id": "priv-app:my-priv-app-mod",
+  "module_id": "first:my-priv-app-mod",
   "visibility": "private",
   "description": "foo",
   "applications": [

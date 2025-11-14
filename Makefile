@@ -2,7 +2,7 @@
 
 VERSION := 0.0.0
 MODULE_NAME := my-priv-app-mod
-ORG_PUBLIC_NAMESPACE := priv-app
+ORG_PUBLIC_NAMESPACE := first
 BASE_URL := https://pr-10341-appmain-bplesliplq-uc.a.run.app/
 
 create:
